@@ -1,0 +1,11 @@
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\bin\Debug\Event.exe.config
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\obj\Debug\Event.csprojResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\bin\Debug\Event.exe
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\bin\Debug\Event.pdb
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\bin\Debug\PowerCollections.dll
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\bin\Debug\PowerCollections.pdb
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\obj\Debug\Event.exe
+c:\users\a\documents\visual studio 2015\Projects\FormattingCode\Event\obj\Debug\Event.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\HOMEWORK\Homework-Formatting Code-99723\FormattingCode\Event\bin\Debug\Event.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\HOMEWORK\Homework-Formatting Code-99723\FormattingCode\Event\obj\Debug\Event.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\HOMEWORK\Homework-Formatting Code-99723\FormattingCode\Event\obj\Debug\Event.pdb

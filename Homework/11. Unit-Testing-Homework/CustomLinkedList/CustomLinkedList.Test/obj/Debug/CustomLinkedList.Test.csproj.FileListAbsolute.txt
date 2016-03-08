@@ -1,0 +1,8 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\bin\Debug\CustomLinkedList.Test.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\bin\Debug\CustomLinkedList.Test.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\bin\Debug\CustomLinkedList.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\bin\Debug\CustomLinkedList.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\obj\Debug\CustomLinkedList.Test.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\obj\Debug\CustomLinkedList.Test.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedList.Test\obj\Debug\CustomLinkedList.Test.pdb

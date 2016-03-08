@@ -1,0 +1,6 @@
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\02.FoodAndDrinksOrders\bin\Debug\02.FoodAndDrinksOrders.exe.config
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\02.FoodAndDrinksOrders\bin\Debug\02.FoodAndDrinksOrders.exe
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\02.FoodAndDrinksOrders\bin\Debug\02.FoodAndDrinksOrders.pdb
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\02.FoodAndDrinksOrders\obj\Debug\02.FoodAndDrinksOrders.csprojResolveAssemblyReference.cache
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\02.FoodAndDrinksOrders\obj\Debug\02.FoodAndDrinksOrders.exe
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\02.FoodAndDrinksOrders\obj\Debug\02.FoodAndDrinksOrders.pdb

@@ -1,0 +1,5 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\New folder\07. High-Quality-Methods-Homework\bin\Debug\Methods.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\New folder\07. High-Quality-Methods-Homework\bin\Debug\Methods.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\New folder\07. High-Quality-Methods-Homework\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\New folder\07. High-Quality-Methods-Homework\obj\Debug\Methods.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\New folder\07. High-Quality-Methods-Homework\obj\Debug\Methods.pdb

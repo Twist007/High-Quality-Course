@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="ac7c5fc5-134a-495c-a743-f4f577ffa31a" revisionNumber="1">
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>Warning GID0002: No comments found for <codeInline>cref</codeInline>
+'<legacyItalic>[cref]</legacyItalic>' on member '<legacyItalic>[id]</legacyItalic>'</para>
+    </introduction>
+
+    <section>
+      <title>Cause</title>
+      <content>
+        <para>This warning will appear of an <codeInline>&lt;inheritDoc /&gt;</codeInline>
+element specified a <codeInline>cref</codeInline> attribute but the resulting
+XPath query resulted in no matches.</para>
+      </content>
+    </section>
+
+    <section>
+      <title>Solution</title>
+      <content>
+        <para>Check the <codeInline>cref</codeInline> attribute to be sure that
+it is correct.  In addition, check the comments files to be sure that it
+contains the elements that are to be selected by the XPath query.</para>
+      </content>
+    </section>
+
+    <relatedTopics>
+			<link xlink:href="077ce20b-7998-4fec-8d79-16d990e1cf3b" />
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

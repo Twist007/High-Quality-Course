@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="da405a33-3eeb-4451-9aa8-a55be5026434" revisionNumber="1">
+	<developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		<introduction>
+			<autoOutline lead="The Build category properties control the build process." excludeRelatedTopics="true" />
+		</introduction>
+
+		<section address="HelpFileFormats">
+			<title>Help file formats (HelpFileFormats)</title>
+			<content>
+				<para>This property lets you specify the type of help file to build (HTML Help 1, MS Help Viewer, a
+website, an Open XML document, markdown content, or various combinations of these options when supported by the
+selected presentation style).  The default is to produce an HTML Help 1 format file.  To build multiple formats
+at the same time, put a check next to each type that you want to build concurrently.  The Open XML and Markdown
+formats cannot be combined with other formats as they produce such drastically different output.</para>
+
+				<alert class="warning">
+					<para>Be aware that if an option is selected that produces a website or markdown content, the output
+folder specified by the <codeInline>Output Path</codeInline> property will be cleared of all of its current
+content without any prompting before the web site content is copied to it.  In other words, don't do something
+stupid like set it to the root of your C: drive or your desktop folder.  The help file builder will take steps to
+try and prevent this from happening.  When producing a help file alone, the output folder is not cleared.</para>
+				</alert>
+
+				<alert class="note">
+					<para>The Open XML format has certain limitations and requirements that must be met in order to produce
+a valid document.  See the <link xlink:href="c5e7e920-2cb4-4f78-b167-634361d85263" /> topic for details.</para>
+				</alert>
+
+				<alert class="note">
+					<para>The Markdown format has certain limitations.  See the
+<link xlink:href="6f0a80ec-b8ef-45d6-a55a-1fb7a6545ddc" /> topic for details.</para>
+				</alert>
+
+				<para>When producing a website, various additional files will be copied to the root of the output folder
+based upon the presentation style selected.  These files are used to provide a default index page, search
+features, etc.  The following files will also appear:</para>
+
+				<list class="bullet">
+					<listItem>
+						<para><localUri>WebTOC.xml</localUri> - This is the XML file used to contain the table of contents
+information.  This file is generated during the build and will contain the same entries as the help file's table
+of contents in a matching layout.</para>
+					</listItem>
+
+					<listItem>
+						<para><localUri>WebKI.xml</localUri> - This is the XML file used to contain the keywords found in
+the topics.  This file is generated during the build.</para>
+					</listItem>
+
+					<listItem>
+						<para><localUri>.\FTI\*.bin</localUri> - This folder contains the serialized full-text index data
+files.  The data is split up into multiple files to improve the performance and reduce the amount of information
+needed when doing a search.</para>
+					</listItem>
+
+				</list>
+
+			</content>
+		</section>
+
+		<section address="FrmwkVer">
+			<title>Framework version (FrameworkVersion)</title>
+			<content>
+				<para>This property allows you to specify against which .NET Framework version the documentation
+assemblies where compiled.  This affects how the <application>MRefBuilder</application> tool produces the
+reflection information file.  The default is to use the .NET Framework version used to build the help file
+builder itself.  This will also affect which set of .NET Framework comments are included in the build to document
+all inherited members of your classes.  Set this property according to your assemblies' framework version
+requirements to ensure that the correct reflection information is generated.</para>
+
+				<para>It is also possible to select a Silverlight Framework version for Silverlight projects, a portable
+framework version for .NET Portable Framework projects, or the Windows Store App framework for Windows Store
+applications.  The selected framework must be present on the system for the build to succeed.  One exception is
+for earlier versions of the selected framework.  They are set up to automatically redirect to later versions of
+the framework until a version is found on the current system.</para>
+
+				<alert class="note">
+					<para>Because Silverlight, portable framework, and Windows Store app projects each use an entirely
+different framework, it is not possible to build a help project containing assemblies and/or Visual Studio
+projects that target a combination of the Silverlight framework, portable framework, Windows Store App framework,
+and/or the normal .NET Framework.  Each must be built in their own separate help project.  You can use the
+<link xlink:href="6c03afba-18d0-4270-b521-c2015c4d97b3" /> to merge the information from each help project into
+one help file if necessary.</para>
+				</alert>
+
+			</content>
+		</section>
+
+		<section address="BuildLogFile">
+			<title>Build log filename (BuildLogFile)</title>
+			<content>
+				<para>This property is used to specify the location and name of the build log file.  If not specified, a
+default name of <localUri>LastBuild.log</localUri> is used and the log file is stored in the same folder as the
+help file (the location specified by the <codeInline>Output Path</codeInline> property).</para>
+
+			</content>
+		</section>
+
+		<section address="CleanInt">
+			<title>Clean intermediate files after a successful build (CleanIntermediates)</title>
+			<content>
+				<para>This property is used to specify whether or not intermediate files created during the build are
+kept after a successful build or are purged.  The default is True to purge the files.  If not purged, you will
+find the files in a <localUri>.\Working</localUri> folder under the project's output path folder.  Files that are
+placed there include the build scripts, configuration files, and the HTML help compiler project output files
+(scripts, art, HTML pages, the HTML help project, etc).  The intermediate files are always retained if the build
+fails so that you can examine them to find the cause if necessary.</para>
+
+			</content>
+		</section>
+
+		<section address="KeepLogFile">
+			<title>Keep the log file after a successful build (KeepLogFile)</title>
+			<content>
+				<para>This property is used to specify whether or not the log file is kept after a successful build.  It
+is true by default to keep the log file.  If set to false, the log file is deleted after a successful build.  The
+log file is always kept after a failed build.</para>
+
+			</content>
+		</section>
+
+		<section address="DisableCodeBlock">
+			<title>Disable the custom code block component (DisableCodeBlockComponent)</title>
+			<content>
+				<para>This property allows the custom <link xlink:href="7f03ba39-09f8-4320-bdbd-ed31a3bd885f" /> to be
+disabled so that the <codeInline>&lt;code&gt;</codeInline> elements are rendered in their default format by the
+Sandcastle XSL transformations with no colorization.  The only thing it will do is import external code and
+normalize the leading whitespace.</para>
+
+			</content>
+		</section>
+
+		<section address="IndentHtml">
+			<title>Indent rendered HTML (IndentHtml)</title>
+			<content>
+				<para>This is used to indicate whether or not the HTML rendered by <application>BuildAssembler</application>
+is indented.  This is mainly a debugging aid.  When set to True, the HTML is indented to make it more readable.
+Leave it set to False to produce more compact HTML.</para>
+
+				<alert class="note">
+					<para>Setting this property to true will cause the first line of <codeInline>code</codeInline> element
+content to be indented.  Set the property to false to correct the issue.  This property is for testing only and
+should not be used in production help files.</para>
+				</alert>
+
+			</content>
+		</section>
+
+		<section address="BuildAssemblerVerbosity">
+			<title>BuildAssembler Verbosity (BuildAssemblerVerbosity)</title>
+			<content>
+				<para>This property is used to specify the minimum message level that the <application>BuildAssembler</application>
+tool will output.  The default is <codeInline>All messages</codeInline> to log all messages.  Setting it to
+<codeInline>Only warnings and errors</codeInline> will cause it to only output warning and error messages.
+Setting it to <codeInline>Only errors</codeInline> will cause it to only output errors.  Using one of the warning
+or error settings can significantly reduce the size of the build log for large projects.</para>
+
+				<para>If a warning or error message does not provide enough context to diagnose the cause, resetting this
+property to <codeInline>All messages</codeInline> and rebuilding the project will let you see the informational
+messages before the warning or error to help in diagnosing the issue.</para>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="e32086c6-de17-4e54-a746-1ac80bf0c45a" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

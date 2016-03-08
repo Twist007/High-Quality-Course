@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{B63F89B9-2B3A-44BB-93F4-6D4364B97006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections", "..\..\..\..\Downloads\PowerCollections\PowerCollections\Source\PowerCollections\PowerCollections.csproj", "{5821977D-AC2C-4912-BCD0-6E6B1A756167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wintellect", "Wintellect", "{A2D9AEF2-D010-494E-8D5C-5138541C2DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatOwnCode", "FormatOwnCode\FormatOwnCode.csproj", "{617F5CD3-E91E-440E-8F79-77A1AEC8882F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B63F89B9-2B3A-44BB-93F4-6D4364B97006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63F89B9-2B3A-44BB-93F4-6D4364B97006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63F89B9-2B3A-44BB-93F4-6D4364B97006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63F89B9-2B3A-44BB-93F4-6D4364B97006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617F5CD3-E91E-440E-8F79-77A1AEC8882F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617F5CD3-E91E-440E-8F79-77A1AEC8882F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617F5CD3-E91E-440E-8F79-77A1AEC8882F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617F5CD3-E91E-440E-8F79-77A1AEC8882F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167} = {A2D9AEF2-D010-494E-8D5C-5138541C2DD8}
+	EndGlobalSection
+EndGlobal

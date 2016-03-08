@@ -1,0 +1,6 @@
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\03.MinesweeperGame\bin\Debug\03.MinesweeperGame.exe.config
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\03.MinesweeperGame\bin\Debug\03.MinesweeperGame.exe
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\03.MinesweeperGame\bin\Debug\03.MinesweeperGame.pdb
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\03.MinesweeperGame\obj\Debug\03.MinesweeperGame.csprojResolveAssemblyReference.cache
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\03.MinesweeperGame\obj\Debug\03.MinesweeperGame.exe
+D:\Softuni Rules\03.Hiqh-quality code\Homeworks\02.Naming identifiers\02.NamingIdentifiersHomework\03.MinesweeperGame\obj\Debug\03.MinesweeperGame.pdb

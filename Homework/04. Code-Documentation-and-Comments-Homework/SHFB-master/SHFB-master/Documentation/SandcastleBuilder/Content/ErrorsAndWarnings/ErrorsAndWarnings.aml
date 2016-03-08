@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="46d1f76e-a97e-4ee6-971c-fdeab725ff09" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>The topics in this section contains detailed information about each of the warning and error messages
+that you may encounter when building a project.  Each warning or error contains a code.  Use that code to look up
+the related topic for information about what it means and possible solutions.</para>
+
+		</introduction>
+
+		<section>
+			<content>
+				<para>Select a category below for a list of related errors and warnings:</para>
+
+				<list class="bullet">
+					<listItem>
+						<para><link xlink:href="20e87b11-21a3-493c-8dd6-16ce7694952b" /></para>
+					</listItem>
+
+					<listItem>
+						<para><link xlink:href="077ce20b-7998-4fec-8d79-16d990e1cf3b" /></para>
+					</listItem>
+
+					<listItem>
+						<para><link xlink:href="ad93a5f8-5f2b-430b-9947-ad58f8520aca" /></para>
+					</listItem>
+
+					<listItem>
+						<para><link xlink:href="a9c0c9b3-c7d6-4904-bf2b-450f56fb0578" /></para>
+					</listItem>
+
+					<listItem>
+						<para><link xlink:href="43dfa3da-529d-404d-917e-d5a630131834" /></para>
+					</listItem>
+
+					<listItem>
+						<para><link xlink:href="49ca6b97-3caf-4a0b-b70d-0e2ae56bb277" /></para>
+					</listItem>
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="8c0c97d0-c968-4c15-9fe9-e8f3a443c50a" />
+			<link xlink:href="1aea789d-b226-4b39-b534-4c97c256fac8" />
+			<link xlink:href="c18d6cb6-e4e4-4944-84ee-f867aa6cfb0d" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

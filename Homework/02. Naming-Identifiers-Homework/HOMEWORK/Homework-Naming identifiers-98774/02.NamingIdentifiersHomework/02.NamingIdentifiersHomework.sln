@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ManipulateTwoDimensionalArrays", "01.ManipulateTwoDimensionalArrays\01.ManipulateTwoDimensionalArrays.csproj", "{D6148AE8-3EFB-46DA-B5D7-348858964419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FoodAndDrinksOrders", "02.FoodAndDrinksOrders\02.FoodAndDrinksOrders.csproj", "{4E5AC445-488F-4F35-A6FC-A8C892E4B471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MinesweeperGame", "03.MinesweeperGame\03.MinesweeperGame.csproj", "{859BC146-C0CA-4D0E-AEB4-6B53504ED100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6148AE8-3EFB-46DA-B5D7-348858964419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6148AE8-3EFB-46DA-B5D7-348858964419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6148AE8-3EFB-46DA-B5D7-348858964419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6148AE8-3EFB-46DA-B5D7-348858964419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5AC445-488F-4F35-A6FC-A8C892E4B471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5AC445-488F-4F35-A6FC-A8C892E4B471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5AC445-488F-4F35-A6FC-A8C892E4B471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5AC445-488F-4F35-A6FC-A8C892E4B471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859BC146-C0CA-4D0E-AEB4-6B53504ED100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859BC146-C0CA-4D0E-AEB4-6B53504ED100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859BC146-C0CA-4D0E-AEB4-6B53504ED100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859BC146-C0CA-4D0E-AEB4-6B53504ED100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

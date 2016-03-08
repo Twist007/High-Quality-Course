@@ -1,0 +1,6 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\DataStrAlgorithmsComplexity\ClassStupidListT\bin\Debug\ClassStupidListT.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\DataStrAlgorithmsComplexity\ClassStupidListT\bin\Debug\ClassStupidListT.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\DataStrAlgorithmsComplexity\ClassStupidListT\bin\Debug\ClassStupidListT.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\DataStrAlgorithmsComplexity\ClassStupidListT\obj\Debug\ClassStupidListT.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\DataStrAlgorithmsComplexity\ClassStupidListT\obj\Debug\ClassStupidListT.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\DataStrAlgorithmsComplexity\ClassStupidListT\obj\Debug\ClassStupidListT.pdb

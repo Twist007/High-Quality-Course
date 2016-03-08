@@ -1,0 +1,2 @@
+C:\Users\Plamena\Desktop\OOP-Exam-Preparation\Capitalism\bin\Debug\Capitalism.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\04. Code-Documentation-and-Comments-Homework\HOMEWORK\Homework-Code Documentation and Comments-99294\OOP-Exam-Preparation\Capitalism\bin\Debug\Capitalism.exe.config

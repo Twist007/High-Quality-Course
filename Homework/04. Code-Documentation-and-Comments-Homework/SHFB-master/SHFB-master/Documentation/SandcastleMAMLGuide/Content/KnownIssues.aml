@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b00070c7-9c5e-4b49-ad5c-f55fa866f062" revisionNumber="1">
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>This topic covers known issues and bugs with Sandcastle and conceptual content.  Currently, the
+VS2013 presentation style is the best choice for conceptual content as it contains no known issues beyond those
+noted in the <legacyBold>General Issues</legacyBold> section.</para>
+    </introduction>
+
+    <section address="General">
+      <title>General Issues</title>
+      <content>
+        <para>These are the currently known issues with Sandcastle in general when used to produce conceptual
+content regardless of presentation style.</para>
+
+        <list class="bullet">
+          <listItem>
+						<para>There does not appear to be any formatting for several of the <legacyBold>Whitepaper</legacyBold>
+topic elements.</para>
+					</listItem>
+          <listItem>
+						<para>Several elements of the <legacyBold>XML Reference</legacyBold> topic type do not render
+correctly if at all.</para>
+					</listItem>
+					<listItem>
+						<para>Sandcastle's XSL transformations remove inter-element whitespace.  As such, if you place two
+MAML elements one after the other and require a separating space between them, use a non-breaking space entity
+(<codeInline>&amp;#160;</codeInline>).  See the <link xlink:href="382fc569-33e4-489a-b0c2-94c11e56ab4a" /> topic
+for an example.</para>
+					</listItem>
+        </list>
+      </content>
+    </section>
+
+    <relatedTopics>
+      <link xlink:href="303c996a-2911-4c08-b492-6496c82b3edb" />
+    </relatedTopics>
+  </developerConceptualDocument>
+</topic>

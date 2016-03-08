@@ -1,0 +1,8 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\bin\Debug\01.ReformatCode.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\obj\Debug\01.ReformatCode.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\bin\Debug\01.ReformatCode.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\bin\Debug\01.ReformatCode.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\bin\Debug\PowerCollections.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\bin\Debug\PowerCollections.xml
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\obj\Debug\01.ReformatCode.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\03. Code-Formatting-Homework\CodeFormatting\01.ReformatCode\obj\Debug\01.ReformatCode.pdb

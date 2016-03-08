@@ -1,0 +1,6 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\SOLIDPrinciplesIn\01.Logger\bin\Debug\01.Logger.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\SOLIDPrinciplesIn\01.Logger\bin\Debug\01.Logger.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\SOLIDPrinciplesIn\01.Logger\bin\Debug\01.Logger.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\SOLIDPrinciplesIn\01.Logger\obj\Debug\01.Logger.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\SOLIDPrinciplesIn\01.Logger\obj\Debug\01.Logger.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\15. SOLID-Principles-in-Software-Design-Homework\SOLIDPrinciplesIn\01.Logger\obj\Debug\01.Logger.pdb

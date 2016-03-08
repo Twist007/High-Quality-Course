@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="f5051d32-b973-4fe1-9ffe-e30531007691" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>This plug-in is used to add assembly binding redirection support to the <application>MRefBuilder</application>
+configuration file.  With this in place, it is possible to document assemblies that use binding redirection to
+reference assemblies of a different version than the ones they were built against.  It is also possible to add
+assembly names to ignore if they are unresolved which is useful in certain situations where the named dependency
+assembly is unavailable (i.e. the Crystal Reports keycode decoder assembly).</para>
+
+			<autoOutline lead="none" excludeRelatedTopics="true" />
+		</introduction>
+
+		<section address="Configuring">
+			<title>Configuring the Plug-In</title>
+			<content>
+				<para>Once added to the project, this plug-in must be configured.  The first tab is used to enter binding
+redirection information.  The second tab is used to enter assemblies to ignore if unresolved.  The <ui>Use the
+GAC to resolve unknown assembly references</ui> option at the top of the dialog box can be checked to have the
+resolver try to find the assembly in the Global Assembly Cache before attempting to use the redirections.  If an
+appropriate version is found there, it will be used and the redirections will not be checked.</para>
+			</content>
+		</section>
+
+		<section address="RedirectionOptions">
+			<title>Binding Redirection Configuration Options</title>
+			<content>
+				<para>The configuration consists of one or more entries that define how to redirect an assembly reference
+or an application configuration file from which the settings should be imported.  A list box at the top of the
+Binding Redirections tab lists the current definitions.  Click the <ui>Add</ui> button to the right of the list
+box to add a new item.  The property grid at the bottom of the tab is used to edit each entry's settings.  Click
+the <ui>Delete</ui> button to the right of the list box to delete an entry.  Each entry consists of the
+following configuration options:</para>
+
+				<table>
+					<tableHeader>
+						<row>
+							<entry>
+								<para>Option</para>
+							</entry>
+							<entry>
+								<para>Description</para>
+							</entry>
+						</row>
+					</tableHeader>
+					<row>
+						<entry>
+							<para><codeInline>ConfigurationFile</codeInline></para>
+						</entry>
+						<entry>
+							<para>This option allows you to specify a configuration file from which the binding redirection
+settings are imported.  This should be an application or web configuration file (i.e. <localUri>App.exe.config</localUri>
+or <localUri>Web.config</localUri>) that contains an <codeInline>assemblyBinding</codeInline> section that
+defines the dependent assemblies and how they should be redirected.  If specified, all other configuration options
+are ignored.  The value can contain replacement tags to specify the path to the file (i.e.
+<localUri>{@ProjectFolder}..\bin\MyApp.exe.config</localUri>).</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para><codeInline>AssemblyName</codeInline></para>
+						</entry>
+						<entry>
+							<para>The assembly name that will be redirected.  Specify only the name of the assembly.  Do not
+include a path or extension.</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para><codeInline>PublicKeyToken</codeInline></para>
+						</entry>
+						<entry>
+							<para>Specify the public key token of the assembly.  If left blank, "null" is assumed.</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para><codeInline>Culture</codeInline></para>
+						</entry>
+						<entry>
+							<para>Specify the culture of the assembly.  If left blank, "neutral" is assumed.</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para><codeInline>OldVersion</codeInline></para>
+						</entry>
+						<entry>
+							<para>Use this to specify the old version that will be redirected.  If the
+<codeInline>OldVersionTo</codeInline> property is left blank, this will be used as the single version to
+redirect.  This can be a version value from 0.0.0.0 to 65535.65535.65535.65535.</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para><codeInline>OldVersionTo</codeInline></para>
+						</entry>
+						<entry>
+							<para>To redirect a range of assembly versions, enter the starting version number in the
+<codeInline>OldVersion</codeInline> property and the ending version number in this property.  If this property is
+left blank, only the version specified in <codeInline>OldVersion</codeInline> is redirected.  This can be a
+version value from 0.0.0.0 to 65535.65535.65535.65535.</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para><codeInline>NewVersion</codeInline></para>
+						</entry>
+						<entry>
+							<para>This defines the new assembly version to which the old versions are redirected.</para>
+						</entry>
+					</row>
+				</table>
+
+			</content>
+		</section>
+
+		<section address="IgnoreOptions">
+			<title>Ignore If Unresolved Entries</title>
+			<content>
+				<para>This tab is used to enter one or more assembly names to ignore if they are unresolved.  By default,
+it contains two entries: one for the Crystal Reports <codeInline>BusinessObjects.Licensing.KeycodeDecoder</codeInline>
+assembly and another for the Visual Studio <codeInline>Microsoft.VisualStudio.TestTools.UITest.Playback</codeInline>
+assembly.  Both of those are not distributed and can cause documentation projects that include them indirectly
+through other reference assemblies to fail when built.</para>
+
+				<para>Type the name of an assembly to add without a path or extension, just the name reported by the
+<application>MRefBuilder</application> tool when it fails due to the missing assembly.  Click the <ui>Add</ui>
+button to add it to the list.  Select an entry and click the <ui>Delete</ui> button to remove an entry.</para>
+
+				<alert class="caution">
+					<para>This option is only to be used in the event that you do no have the named assembly and do not
+care about missing information for it in your help file.  It is always better to find the reference assembly and
+add it as a reference in the documentation project rather than to ignore it altogether.  Doing so may result in
+missing information in the help file.  This option is truly a last resort if there is no possible way to obtain
+a copy of the missing reference assembly.</para>
+				</alert>
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="e031b14e-42f0-47e1-af4c-9fed2b88cbc7" />
+			<externalLink>
+				<linkText>Assembly Binding Redirection</linkText>
+				<linkUri>http://msdn.microsoft.com/en-us/library/2fc472t2.aspx</linkUri>
+				<linkTarget>_blank</linkTarget>
+			</externalLink>
+			<externalLink>
+				<linkText>assemblyBinding Configuration File Element</linkText>
+				<linkUri>http://msdn.microsoft.com/en-us/library/twy1dw1e.aspx</linkUri>
+				<linkTarget>_blank</linkTarget>
+			</externalLink>
+
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

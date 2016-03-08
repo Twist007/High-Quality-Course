@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="078cc1c7-7995-431e-bf9c-8813becbe8df" revisionNumber="1">
+	<developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		<introduction>
+			<para>The topics in this section describe the various changes made to the Sandcastle Help File Builder over
+the life of the project.  Select a version below to see a description of its changes.</para>
+		</introduction>
+
+		<section>
+			<content>
+				<para>Be aware that breaking changes may have been made since the last release you were using.  Please
+review the release notes from all releases after it to the latest to find changes that may require you to update
+your project such as modifications to build component and plug-in configurations.</para>
+
+				<list class="bullet">
+					<listItem>
+						<para>
+							<link xlink:href="5a0130e2-a2ab-493c-a720-be43589e8b1c" />
+						</para>
+					</listItem>
+
+					<listItem>
+						<para>
+							<link xlink:href="90c2bedf-fe6e-4f99-8a33-84b441701269" />
+						</para>
+					</listItem>
+
+					<listItem>
+						<para>
+							<link xlink:href="006F71C5-D279-4A4C-AF34-B5CC28D560C5" />
+						</para>
+					</listItem>
+
+					<listItem>
+						<para>
+							<link xlink:href="22c82423-a322-4857-9bf8-6d1f1c2fba68" />
+						</para>
+					</listItem>
+
+					<listItem>
+						<para>
+							<link xlink:href="6110ac54-04d8-4624-8a2b-2a58af63c20d" />
+						</para>
+					</listItem>
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics />
+
+	</developerConceptualDocument>
+</topic>

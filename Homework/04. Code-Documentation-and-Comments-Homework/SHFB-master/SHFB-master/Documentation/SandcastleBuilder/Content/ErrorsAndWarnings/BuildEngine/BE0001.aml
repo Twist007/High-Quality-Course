@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="13bf1e14-bf8f-478b-8fe6-932d18922a85" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Error BE0001: The PresentationStyle property value of '<legacyItalic>[StyleID]</legacyItalic>' is
+not recognized as a valid presentation style definition.</para>
+		</introduction>
+
+		<section>
+			<title>Cause</title>
+			<content>
+				<para>The build engine was unable to find a presentation style with the given ID that was found in the
+<codeInline>PresentationStyle</codeInline> project property.
+				</para>
+			</content>
+		</section>
+
+		<section>
+			<title>Solution</title>
+			<content>
+				<para>The most likely cause for this error is that a custom presentation style was selected but the
+build engine could not find the presentation style definition.  The standard presentation style definitions are
+found in the <localUri>StandardStyles.presentation</localUri> file located in the help file builder installation
+folder.  Custom presentation styles are typically located in the <localUri>.\Presentation Styles</localUri>
+sub-folder under the <legacyBold>Common Application Data</legacyBold> folder.  See the
+<link xlink:href="a24489fb-45d6-46f4-9eaa-9a9c4e0919b2#PresentationStyles" /> topic for more information.
+			</para>
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="20e87b11-21a3-493c-8dd6-16ce7694952b" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

@@ -1,0 +1,6 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\02. Naming-Identifiers-Homework\Naming Identifiers Homework\Application2\bin\Debug\Application2.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\02. Naming-Identifiers-Homework\Naming Identifiers Homework\Application2\bin\Debug\Application2.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\02. Naming-Identifiers-Homework\Naming Identifiers Homework\Application2\bin\Debug\Application2.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\02. Naming-Identifiers-Homework\Naming Identifiers Homework\Application2\obj\Debug\Application2.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\02. Naming-Identifiers-Homework\Naming Identifiers Homework\Application2\obj\Debug\Application2.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Homework\02. Naming-Identifiers-Homework\Naming Identifiers Homework\Application2\obj\Debug\3. Application2.csprojResolveAssemblyReference.cache

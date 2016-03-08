@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="21c2a363-6c94-440b-8985-6b224d275463" revisionNumber="1">
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <autoOutline lead="The following are the known issues and limitations in the current release of Sandcastle and the help file builder."
+          excludeRelatedTopics="true" />
+    </introduction>
+
+    <section address="MSHelpViewer">
+      <title>Microsoft Help Viewer</title>
+      <content>
+				<list class="bullet">
+					<listItem>
+						<para>The deprecated raw HTML additional content model and site maps are not supported for help
+viewer output.  All additional topics must be in the form of MAML
+<link xlink:href="3d4edd2d-7883-4508-b9d2-bd7b4d848b0d">conceptual content</link> and must be defined in a
+content layout file.  There are too many requirements of the format to support raw HTML files and the deprecated
+additional content options.  The installer contains an HTML to MAML converter utility if you need one.</para>
+					</listItem>
+
+				</list>
+      </content>
+    </section>
+  
+    <section address="SHFB">
+      <title>Sandcastle Help File Builder</title>
+      <content>
+				<list class="bullet">
+					<listItem>
+						<para>Not all build errors and warnings have been documented yet.  You will recognize these by a
+<placeholder>TODO:</placeholder> comment where the introduction should be or in the topic body.  If you need
+help for one of these errors or warnings, please ask in the Issues area of the <token>SHFB</token> project
+on GitHub.</para>
+					</listItem>
+
+					<listItem>
+						<para>The standalone GUI does not support source control providers.</para>
+					</listItem>
+
+					<listItem>
+						<para>Linked items (file items in which the physical file is located in a folder outside the
+project's folder) are supported but cannot be added from the standalone GUI.</para>
+					</listItem>
+
+					<listItem>
+						<para>COM object references are supported in the projects but they cannot be added from the
+standalone GUI.</para>
+					</listItem>
+
+					<listItem>
+						<para>Due to their non-standard format, managed C++ projects from Visual Studio 2008 and before are
+not supported as documentation sources or project references.  Add the targets and references individually.
+Visual Studio 2010 and later use a standard MSBuild format for C++ projects and they are supported as
+documentation sources.</para>
+					</listItem>
+
+					<listItem>
+						<para>The display of editor windows, the Properties window, or the Preview window sometimes gets
+corrupted such that the content area disappears or is not sized correctly in the tabbed area of the standalone
+GUI.  Selecting a different file tab and switching back to the affected tab, closing and reopening the affected
+file/window, or resizing the width of a docked window to force a repaint will work around the issue.</para>
+					</listItem>
+
+					<listItem>
+						<para>Renaming a folder or file in the Project Explorer in the standalone GUI will not rename any
+open document editors associated with the renamed folder or file.  If necessary, do a <ui>File | Save As</ui> to
+save it in the right location or just close and reopen the file if it has not been changed.</para>
+					</listItem>
+
+					<listItem>
+						<para>A standard tree control is used in the Project Explorer window in the standalone GUI and does
+not allow selection of multiple tree nodes.  As such, all operations within it only affect the currently selected
+node.</para>
+					</listItem>
+
+					<listItem>
+						<para>When doing search and replace in a text editor window in the standalone GUI, the highlight on
+the found text is not always retained when doing a subsequent search/replace.  The cursor is positioned correctly
+though.</para>
+					</listItem>
+
+					<listItem>
+						<para>In the standalone GUI, when using the dropdown on the editor window's "various elements" toolbar
+button (shows <ui>alert</ui> as the default action when first opened), the cursor occasionally disappears from
+the editor window after the dropdown closes even though it has the focus and text can be entered.  Change the
+focus to another window and back to restore it.</para>
+					</listItem>
+
+				</list>
+      </content>
+    </section>
+
+		<relatedTopics>
+			<link xlink:href="ef1dba5d-bb3b-4d27-9ccf-6f1ec8d1e793" />
+			<link xlink:href="2bba4e09-e9bd-4ef4-9bf4-800af246e97d" />
+			<link xlink:href="9f1a5c32-7c10-47e1-bbea-319ee0866e3d" />
+			<link xlink:href="95c85ec6-9f23-426a-b0ad-6b10a0453eaf" />
+			<link xlink:href="5a484e94-6940-4c97-940c-3f46fb8736d2" />
+			<link xlink:href="078cc1c7-7995-431e-bf9c-8813becbe8df" />
+			</relatedTopics>
+  </developerConceptualDocument>
+</topic>
