@@ -1,0 +1,1 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Test-UTest\UnitTest\bin\Debug\UnitTest.exe.config

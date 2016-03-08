@@ -1,0 +1,1 @@
+c:\users\edu\documents\visual studio 2015\Projects\FiveSpecialLetters\FiveSpecialLetters\bin\Debug\FiveSpecialLetters.exe.config

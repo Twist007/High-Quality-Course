@@ -1,0 +1,13 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\bin\Debug\FlyweightGame.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\bin\Debug\FlyweightGame.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\bin\Debug\FlyweightGame.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\MainWindow.baml
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\MainWindow.g.cs
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\App.g.cs
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame_MarkupCompile.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame.g.resources
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame.Properties.Resources.resources
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame.csproj.GenerateResource.Cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\Mass-Effect-Game\obj\Debug\FlyweightGame.pdb

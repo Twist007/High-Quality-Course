@@ -1,0 +1,8 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\bin\Debug\TestBank.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\bin\Debug\TestBank.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\bin\Debug\Bank.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\bin\Debug\Bank.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\obj\Debug\TestBank.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\obj\Debug\TestBank.dll
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Unit-Testing-Demos\VSTT-Demo\TestBank\obj\Debug\TestBank.pdb

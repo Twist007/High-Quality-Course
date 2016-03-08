@@ -1,0 +1,10 @@
+c:\users\jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Core\bin\Debug\mUnit.Core.dll
+c:\users\jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Core\bin\Debug\mUnit.Core.pdb
+c:\users\jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Core\obj\Debug\mUnit.Core.dll
+c:\users\jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Core\obj\Debug\mUnit.Core.pdb
+c:\users\jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Core\obj\Debug\mUnit.Core.csprojResolveAssemblyReference.cache
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Core\bin\Debug\mUnit.Core.dll
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Core\bin\Debug\mUnit.Core.pdb
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Core\obj\Debug\mUnit.Core.csprojResolveAssemblyReference.cache
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Core\obj\Debug\mUnit.Core.dll
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Core\obj\Debug\mUnit.Core.pdb

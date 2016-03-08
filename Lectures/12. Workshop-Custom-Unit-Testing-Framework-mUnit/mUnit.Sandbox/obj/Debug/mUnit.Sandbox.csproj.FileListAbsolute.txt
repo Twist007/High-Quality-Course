@@ -1,0 +1,16 @@
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\bin\Debug\mUnit.Sandbox.exe.config
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\obj\Debug\mUnit.Sandbox.csprojResolveAssemblyReference.cache
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\bin\Debug\mUnit.Sandbox.exe
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\bin\Debug\mUnit.Sandbox.pdb
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\bin\Debug\mUnit.Core.dll
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\bin\Debug\mUnit.Core.pdb
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\obj\Debug\mUnit.Sandbox.exe
+c:\Users\Jamal\documents\visual studio 2015\Projects\mUnit\mUnit.Sandbox\obj\Debug\mUnit.Sandbox.pdb
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\bin\Debug\mUnit.Sandbox.exe.config
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\obj\Debug\mUnit.Sandbox.exe
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\obj\Debug\mUnit.Sandbox.pdb
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\bin\Debug\mUnit.Sandbox.exe
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\bin\Debug\mUnit.Sandbox.pdb
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\bin\Debug\mUnit.Core.dll
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\bin\Debug\mUnit.Core.pdb
+C:\SVN\hqc-december\12. Workshop-Custom-Unit-Testing-Framework-mUnit\mUnit.Sandbox\obj\Debug\mUnit.Sandbox.csprojResolveAssemblyReference.cache

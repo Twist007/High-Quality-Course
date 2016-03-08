@@ -1,0 +1,13 @@
+c:\users\edu\documents\visual studio 2015\Projects\YoloSnake\YoloSnake\bin\Debug\YoloSnake.exe.config
+c:\users\edu\documents\visual studio 2015\Projects\YoloSnake\YoloSnake\bin\Debug\YoloSnake.exe
+c:\users\edu\documents\visual studio 2015\Projects\YoloSnake\YoloSnake\bin\Debug\YoloSnake.pdb
+c:\users\edu\documents\visual studio 2015\Projects\YoloSnake\YoloSnake\obj\Debug\YoloSnake.csprojResolveAssemblyReference.cache
+c:\users\edu\documents\visual studio 2015\Projects\YoloSnake\YoloSnake\obj\Debug\YoloSnake.exe
+c:\users\edu\documents\visual studio 2015\Projects\YoloSnake\YoloSnake\obj\Debug\YoloSnake.pdb
+C:\Users\Edu\Desktop\YoloSnake\YoloSnake\bin\Debug\YoloSnake.exe.config
+C:\Users\Edu\Desktop\YoloSnake\YoloSnake\obj\Debug\YoloSnake.exe
+C:\Users\Edu\Desktop\YoloSnake\YoloSnake\obj\Debug\YoloSnake.pdb
+C:\Users\Edu\Desktop\YoloSnake\YoloSnake\obj\Debug\YoloSnake.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\New folder\03. Code-Formatting-Preliminary-Exercise\YoloSnake\YoloSnake\bin\Debug\YoloSnake.exe.config
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\New folder\03. Code-Formatting-Preliminary-Exercise\YoloSnake\YoloSnake\obj\Debug\YoloSnake.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\New folder\03. Code-Formatting-Preliminary-Exercise\YoloSnake\YoloSnake\obj\Debug\YoloSnake.pdb

@@ -1,0 +1,5 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\10. Code-Tuning-and-Optimization-Demos\StopwatchDemo\bin\Debug\StopwatchDemo.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\10. Code-Tuning-and-Optimization-Demos\StopwatchDemo\bin\Debug\StopwatchDemo.pdb
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\10. Code-Tuning-and-Optimization-Demos\StopwatchDemo\obj\Debug\StopwatchDemo.csprojResolveAssemblyReference.cache
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\10. Code-Tuning-and-Optimization-Demos\StopwatchDemo\obj\Debug\StopwatchDemo.exe
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\10. Code-Tuning-and-Optimization\10. Code-Tuning-and-Optimization-Demos\StopwatchDemo\obj\Debug\StopwatchDemo.pdb

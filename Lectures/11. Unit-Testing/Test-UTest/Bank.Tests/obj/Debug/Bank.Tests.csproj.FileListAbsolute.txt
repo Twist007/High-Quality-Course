@@ -1,0 +1,1 @@
+E:\SoftUni\1.Fundamental Level\High-Quality-Course\Lectures\11. Unit-Testing\Test-UTest\Bank.Tests\obj\Debug\Bank.Tests.csprojResolveAssemblyReference.cache
